@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สินค้าทั้งหมด | Body Scent</title>
+  <meta name="description" content="น้ำหอมฉีดตัว Body Scent ไซส์ 30ml และ 100ml พร้อมโรลออน เลือกกรองตามอารมณ์ได้">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .nav a[aria-current="page"] { border-bottom-color: var(--bronze); }
+    .page-title { font-size: clamp(2rem, 3vw + 1rem, 3rem); }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Body Scent</a>
+      <ul class="nav">
+        <li><a href="index.html">หน้าแรก</a></li>
+        <li><a href="product.html" aria-current="page">สินค้า</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <h1 class="page-title">สินค้าทั้งหมด</h1>
+          <hr class="divider">
+          <p>น้ำหอมฉีดตัวไซส์ 30ml และ 100ml พร้อมโรลออน เลือกกรองตามอารมณ์ที่ต้องการได้เลย</p>
+        </div>
+
+        <div id="filter-bar" class="filters"></div>
+        <div id="product-list" class="product-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>Body Scent</span>
+      <span>&copy; 2026 Body Scent สงวนลิขสิทธิ์</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
